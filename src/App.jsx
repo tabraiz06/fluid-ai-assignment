@@ -4,7 +4,7 @@ import MovieList from "./components/MovieList";
 import MovieModal from "./components/MovieModal";
 
 const API_KEY = "4cf5ef74";
-const BASE_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+const BASE_URL = `https://www.omdbapi.com/?apikey=${API_KEY}`;
 
 function App() {
   const [movies, setMovies] = useState([]);
